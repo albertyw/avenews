@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="favicon" type="image/ico" href="image/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="include/index.css">
+<link rel="stylesheet" type="text/css" href="include/style.css">
+
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC_6b5_eiZuNKnqiBhADnfVinB2JB8BiL4&sensor=true"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+<script type="text/javascript" src="include/initialize.js"></script>
+<script type="text/javascript" src="include/article.js"></script>
+
+
+</head>
+
+<body>
+    <div id="title" class="center"><font size="7">AVENEWS</font></div>
+    <br>
+    <table class="center" cellpadding="10" cellspacing="0">
+        <tr>
+            <td id="map_cell">
+                <div id="googleMap" style="width:600px;height:450px;">
+                </div>
+            </td>
+            <td id="article_list_cell" class="noleftborder">
+                <div id="article_list_div">
+                <br /><br /><br />
+                <h3>Click a marker!<br />
+                &crarr;</h3>
+                </div>
+            </td>
+            <td id="article_cell" class="noleftborder">
+                <iframe id="article_iframe"></iframe>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <div id="credits" class="center"><a href="http://albertyw.mit.edu/">albertyw</a> & <a href="http://ironchefsynbio.wordpress.com">jencheng</a></div>
+</body>
+</html>
+

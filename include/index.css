@@ -1,0 +1,39 @@
+body
+{
+	font-family: Baskerville, times, serif;
+}
+div
+{
+	text-align:center;
+}
+.center
+{
+	margin:auto;
+}
+.date
+{
+	font-size:70%;
+	color:gray;
+}
+td
+{
+	border-color="#D3D3D3";
+	border-style:dashed;
+	border-width:1px;
+}
+.noleftborder
+{
+	border-left-style: none;
+}
+#article_list_div
+{
+    width:600px;
+    height:450px;
+    overflow:scroll;
+}
+#article_iframe
+{
+    width:600px;
+    height:450px;
+    overflow:scroll;
+}
