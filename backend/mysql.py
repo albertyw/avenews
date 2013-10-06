@@ -9,7 +9,7 @@ class Mysql():
     Initialize the connection
     '''
     def __init__(self):
-        self.db=MySQLdb.connect(host="localhost",user="avenews",passwd="F6mfT5RM3fBQjE7J",db="avenews")
+        self.db=MySQLdb.connect(host="localhost",user="avenews",passwd="",db="avenews")
         self.db.autocommit(True)
         pass
     '''

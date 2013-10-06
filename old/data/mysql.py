@@ -8,7 +8,7 @@ class Mysql():
     Initialize the connection
     '''
     def __init__(self):
-        self.db=MySQLdb.connect(host="localhost",user="newsmap",passwd="J8jvEFyFTp5aqfGn",db="newsmap")
+        self.db=MySQLdb.connect(host="localhost",user="newsmap",passwd="",db="newsmap")
         pass
     '''
     Send a query to the database
